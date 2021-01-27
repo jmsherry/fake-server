@@ -5,7 +5,7 @@
   "author": "James Sherry <james.m.sherry@googlemail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "yarn json-server data.js"
+    "start": "yarn json-server data.js --port 8000"
   },
   "dependencies": {
     "faker": "^5.2.0",
