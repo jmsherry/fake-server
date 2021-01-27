@@ -1,0 +1,15 @@
+{
+  "name": "fake-server",
+  "version": "1.0.0",
+  "repository": "git@github.com:jmsherry/fake-server.git",
+  "author": "James Sherry <james.m.sherry@googlemail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn json-server data.js"
+  },
+  "dependencies": {
+    "faker": "^5.2.0",
+    "json-server": "^0.16.3",
+    "uuid": "^8.3.2"
+  }
+}
