@@ -3,7 +3,7 @@ const { v4:uuidv4 } = require('uuid');
 const bcrypt = require('bcryptjs');
 const salt = bcrypt.genSaltSync(10);
 
-module.exports = function generateGuests() {
+module.exports = function generateData() {
   // Users
   const users = [
     {
