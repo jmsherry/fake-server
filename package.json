@@ -5,13 +5,13 @@
   "author": "James Sherry <james.m.sherry@googlemail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "yarn json-server-auth data.js --port 8000 --id _id"
+    "start": "npx json-server-auth data.js --port 8000 --id _id"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
     "faker": "^5.2.0",
-    "json-server": "^0.16.3",
     "json-server-auth": "^2.1.0",
+    "jump-json-server": "^0.17.3",
     "uuid": "^8.3.2"
   }
 }
